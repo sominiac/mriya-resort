@@ -1,0 +1,91 @@
+@import "vars";
+.main-page {
+    position: relative;
+}
+
+.container {
+    max-width: 118rem;
+    padding: 0 1rem;
+    margin: 0 auto;
+}
+
+.logo {
+    &__image {
+        width: 6.6rem;
+        height: 5.6rem;
+    }
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    &__list {
+        @include head__text;
+        margin-right: 6.4rem;
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+    &__list_login {
+        padding-left: 2.3rem;
+        margin-right: 4rem;
+        background-image: url(../../assets/images/icons/key.svg);
+        background-repeat: no-repeat;
+        background-position: left center;
+        background-size: 1.5rem 0.8rem;
+    }
+    &__list_white {
+        color: #fff;
+    }
+    &__list_circle {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        background-color: transparent;
+        margin-right: 0;
+        margin-bottom: 3.2rem;
+        border: 0.1rem solid $second-main-color;
+        cursor: pointer;
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+    &__link_dashed {
+        border-bottom: 0.1rem dashed #fff;
+    }
+    &__link_facebook {
+        background-image: url(../../assets/images/icons/facebook.svg);
+        background-size: 1.15rem 1.8rem;
+    }
+    &__link_twitter {
+        background-image: url(../../assets/images/icons/twitter.svg);
+        background-size: 1.8rem 1.5rem;
+    }
+    &__link_instagram {
+        background-image: url(../../assets/images/icons/instagram.svg);
+        background-size: 1.8rem;
+    }
+    &__link_facebook_colored {
+        background-image: url(../../assets/images/icons/facebook-colored.svg);
+        background-size: 1.15rem 1.8rem;
+    }
+    &__link_twitter_colored {
+        background-image: url(../../assets/images/icons/twitter-colored.svg);
+        background-size: 1.8rem 1.5rem;
+    }
+    &__link_instagram_colored {
+        background-image: url(../../assets/images/icons/instagram-colored.svg);
+        background-size: 1.8rem;
+    }
+}
+
+.line {
+    display: block;
+    width: 0.1rem;
+    background-color: $second-main-color;
+}
+
+.hidden {
+    display: none !important;
+}

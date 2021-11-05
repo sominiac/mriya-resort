@@ -1,0 +1,26 @@
+.tablet {
+    min-height: 55.2rem;
+    margin-top: 15.2rem;
+    margin-bottom: 10.3rem;
+    background-image: url(../assets/images/MriyaResort.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    position: relative;
+    z-index: 1;
+    &__image {
+        width: 61.6rem;
+        height: 82.2rem;
+        position: absolute;
+        top: -28.5rem;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    &__logo {
+        margin: 0;
+        position: absolute;
+        left: 50%;
+        bottom: 0;
+        transform: translateX(-50%);
+        z-index: 1;
+    }
+}
