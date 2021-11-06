@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/mriya-resort/static/css/main.03b587f5.chunk.css",
+    "main.js": "/mriya-resort/static/js/main.47ddb2a5.chunk.js",
+    "main.js.map": "/mriya-resort/static/js/main.47ddb2a5.chunk.js.map",
+    "runtime-main.js": "/mriya-resort/static/js/runtime-main.4773f318.js",
+    "runtime-main.js.map": "/mriya-resort/static/js/runtime-main.4773f318.js.map",
+    "static/js/2.1d5af6f2.chunk.js": "/mriya-resort/static/js/2.1d5af6f2.chunk.js",
+    "static/js/2.1d5af6f2.chunk.js.map": "/mriya-resort/static/js/2.1d5af6f2.chunk.js.map",
+    "index.html": "/mriya-resort/index.html",
+    "static/css/main.03b587f5.chunk.css.map": "/mriya-resort/static/css/main.03b587f5.chunk.css.map",
+    "static/js/2.1d5af6f2.chunk.js.LICENSE.txt": "/mriya-resort/static/js/2.1d5af6f2.chunk.js.LICENSE.txt",
+    "static/media/1.d8cb1e89.jpg": "/mriya-resort/static/media/1.d8cb1e89.jpg",
+    "static/media/style.scss": "/mriya-resort/static/media/waves.83b8eaaa.svg",
+    "static/media/allinclusive-slide.9c0c3de7.jpg": "/mriya-resort/static/media/allinclusive-slide.9c0c3de7.jpg",
+    "static/media/allinclusive-slide3.a41807d3.jpg": "/mriya-resort/static/media/allinclusive-slide3.a41807d3.jpg",
+    "static/media/flower.d070afc4.png": "/mriya-resort/static/media/flower.d070afc4.png",
+    "static/media/logo.33b1f9f7.svg": "/mriya-resort/static/media/logo.33b1f9f7.svg",
+    "static/media/mobile-flower.863e53ab.png": "/mriya-resort/static/media/mobile-flower.863e53ab.png",
+    "static/media/tablet.80e531fc.png": "/mriya-resort/static/media/tablet.80e531fc.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4773f318.js",
+    "static/js/2.1d5af6f2.chunk.js",
+    "static/css/main.03b587f5.chunk.css",
+    "static/js/main.47ddb2a5.chunk.js"
+  ]
+}
